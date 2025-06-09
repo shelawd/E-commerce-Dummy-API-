@@ -3,6 +3,7 @@ import { FaShoppingCart, FaUser, FaHeart, FaHistory } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import Logo from "../assets/Logo2.png";
 
 function Header() {
   const [cartCount, setCartCount] = useState(0);
@@ -57,7 +58,7 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/src/assets/Logo2.png"
+            src={Logo}
             alt="Logo"
             className="w-36 object-contain"
           />
