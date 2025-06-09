@@ -1,5 +1,5 @@
 import React from "react";
-
+import ImgHero from "../assets/Hero.png";
 function Hero() {
   return (
     <section id="about-us" className="bg-gradient-to-r py-20 px-6">
@@ -23,7 +23,7 @@ function Hero() {
 
         {/* Gambar Hero */}
         <div className="md:w-1/2">
-          <img src="/src/assets/Hero.png" alt="Hero Image" />
+          <img src={ImgHero} alt="Hero Image" />
         </div>
       </div>
     </section>
